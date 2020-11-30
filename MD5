@@ -1,4 +1,4 @@
-2e1c395a26081e4600cd8c01d8639483 *DESCRIPTION
+23f8d5652064fc235204c29f076547c0 *DESCRIPTION
 d38482e1aba32796220547bcb4c56fb2 *LICENSE
 5489d80edfa9b808fb466bfe5272c0cc *NAMESPACE
 21186d1e27c1f08a9e0edecc46af68be *R/RcppExports.R
@@ -25,9 +25,9 @@ c032584a555a1f2a2d54616faf17a78e *man/paperGraph.Rd
 bd73fbb75adb36aaac75a7c3ba86180b *man/plot.gfpop.Rd
 9f619c9a3d8c329ae07b82127dd9efcd *man/profile614chr2.Rd
 1dfa30bd9bcaf235f2e0f177ba856212 *man/sdDiff.Rd
-5315194dcfbc1df74a5909302da409f5 *src/Cost.cpp
+fe571bbb598042ecd5c74f003096be31 *src/Cost.cpp
 77b4335ecf8e7a82b6d356a1f498050e *src/Cost.h
-ed40df0b46791589be018de956750057 *src/Data.cpp
+b03980c798faef6b1ff466d10b910053 *src/Data.cpp
 1717811c54129d79b42a82a0f2d2b69e *src/Data.h
 90eff422843d08843492f6228da4de0e *src/Edge.cpp
 35b4f01f1cf4599f17bec282dd5fc57c *src/Edge.h
@@ -37,11 +37,11 @@ ca7f9f87e414f7923562110be98d605f *src/ExternFunctions.h
 71849449833bc5c85573de39b9ea8275 *src/Graph.h
 8acef802841ee2e5eb5fb5d2d84c0e56 *src/Interval.cpp
 122ff4306d84200bbc4b9c0e31120752 *src/Interval.h
-3f73abfd9b8995fd73e5e423959fd840 *src/ListPiece.cpp
+b5fb311ed91c75d55842d10819bc69da *src/ListPiece.cpp
 2d64750f3fd0601de6d7e3b4ef4816e2 *src/ListPiece.h
-6869653c8c637647fc2a8b8ac975ad8c *src/Omega.cpp
+5879e586a9e925474932722e1388bd87 *src/Omega.cpp
 4b3d803ce4d2feefd834e8426a9f45cc *src/Omega.h
-cf132e8a43a20cb977c47fe4e415f366 *src/Piece.cpp
+7f6463a8399d24fa160e063f0e28caa2 *src/Piece.cpp
 ecd3f9a47e000d01a3d21b1b270986ce *src/Piece.h
 5a99ffe0d0d072d3eaee2deae72c824a *src/RcppExports.cpp
 41a535bc3ff117ffe5ddc4cf009353d6 *src/Track.cpp

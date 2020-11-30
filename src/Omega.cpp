@@ -25,11 +25,11 @@ Omega::~Omega()
 {
   if(LP_ts != NULL)
   {
-    for(unsigned int i = 0; i < (n + 1); i++){delete [] (LP_ts[i]);}
-    delete LP_ts;
+    for(unsigned int i = 0; i < (n + 1); i++){delete[] (LP_ts[i]);}
+    delete[] LP_ts;
     LP_ts = NULL;
   }
-  delete [] LP_edges;
+  delete[] LP_edges;
   LP_edges = NULL;
 }
 
@@ -332,8 +332,8 @@ void Omega::backtracking()
   states.push_back(states1);
   forced.push_back(forced1);
 
-  delete(malsp);
-  delete(malsp_temp);
+  delete[] malsp;
+  delete[] malsp_temp;
   //delete(nodeConstr);
 }
 

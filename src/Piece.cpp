@@ -77,7 +77,7 @@ Interval Piece::intervalMinLessUp(double bound, double currentValue, bool constP
         coeff[2] = m_cost.constant;
         Cost costInter = Cost(coeff);
         response.seta(cost_intervalInterRoots(costInter, currentValue).geta());
-        delete(coeff);
+        delete[] coeff;
       }
       else
       {
@@ -121,7 +121,7 @@ Interval Piece::intervalMinLessDw(double bound, double currentValue, bool constP
         coeff[2] = m_cost.constant;
         Cost costInter = Cost(coeff);
         response.setb(cost_intervalInterRoots(costInter, currentValue).getb());
-        delete(coeff);
+        delete[] coeff;
       }
       else
       {

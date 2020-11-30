@@ -70,7 +70,7 @@ int signValue(double value)
 double log_factorial(double n)
 {
   double res = 0;
-  for(int i = 2; i < floor(n) + 1; i++){res = res + log(i);}
+  for(int i = 2; i < floor(n) + 1; i++){res = res + log((double)(i));}
   return(res);
 }
 
