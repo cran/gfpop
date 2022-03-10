@@ -2,10 +2,9 @@
 % Please edit documentation in R/paperGraphs.R
 \name{paperGraph}
 \alias{paperGraph}
-\title{Graphs of our paper in jss}
+\title{Graphs of our paper in JSS}
 \usage{
-paperGraph(nb, penalty = 0, decay = 1, gap = 0, oneValue = 0,
-  K = Inf, a = 0)
+paperGraph(nb, penalty = 0, decay = 1, gap = 0, oneValue = 0, K = Inf, a = 0)
 }
 \arguments{
 \item{nb}{the number of the Figure in paper}
@@ -23,8 +22,9 @@ paperGraph(nb, penalty = 0, decay = 1, gap = 0, oneValue = 0,
 \item{a}{a positive number. Slope for the Huber robust loss}
 }
 \value{
-a dataframe with 9 variables (columns are named "state1", "state2", "type", "parameter", "penalty", "K", "a", "min", "max") with additional "graph" class.
+a dataframe with 9 variables :
+columns are named \code{"state1"}, \code{"state2"}, \code{"type"}, \code{"parameter"}, \code{"penalty"}, \code{"K"}, \code{"a"}, \code{"min"}, \code{"max"} with additional \code{"graph"} class.
 }
 \description{
-Graphs of our paper in jss
+Graphs of our paper in JSS (Journal of Statistical Software)
 }
