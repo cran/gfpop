@@ -142,7 +142,9 @@ gfpop <- function(data, mygraph, type = "mean", weights = NULL, testMode = FALSE
     response <- list(changepoints = res$changepoints, states = res$states, forced = res$forced, parameters = res$param, globalCost = res$cost)
   }
 
-  attr(response, "class") <- c("gfpop", type)
+  attr(response, "class") <- "gfpop"
+  attr(response, "type") <- type
+
   return(response)
 }
 
@@ -229,7 +231,9 @@ itergfpop <- function(data, mygraph, type = "mean", weights = NULL, iter.max = 1
   ### Response class gfpop ###
   ############################
   response <- list(changepoints = c(rev(res$changepoints[-1]), length(data)), states = vertices[rev(res$states)+1], forced = rev(res$forced), parameters = rev(res$param), globalCost = res$cost, Dvect = rev(rev(Dvect)[-1]))
-  attr(response, "class") <- c("gfpop", type)
+
+  attr(response, "class") <- "gfpop"
+  attr(response, "type") <- type
 
   return(response)
 }
